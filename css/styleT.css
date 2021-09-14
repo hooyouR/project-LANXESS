@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+/* 태블릿 */
+body {
+    margin-top: 109px; /* header height 크기만큼 */
+}
+
+header {
+    height: 109px;
+}
+header ul li #menu {
+    margin-right: 29px;
+}
+
+article .bannerpic {
+    margin: 0;
+    width: 100%; height: 40vh;
+    background: url(../images/hands.jpg) no-repeat 50% 50% / cover
+}
+article > .bannertext {
+    height: 162px;
+}
+article > div > h1 {
+    padding: 30px 0 11px 25px;
+}
+article > div > p {
+    width: 90%;
+}
+article .bannertext p span { display: none; }
+
+main .chemistry {
+    margin: 77px 4vw 0 4vw;
+}
+main .chemiwrapper div {
+    width: 42vw;
+}
+main .chemiwrapper div a:first-child {
+    width: 42vw;
+}
+main .title h2 {
+    font-size: 30px;
+}
+main .title a {
+    font-size: 15px;
+}
+main .chemiwrapper {
+    width: 89vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 0;
+}
+main .chemiwrapper img {
+    width: 42vw;
+    margin-top: 76px;
+}
+main .chemiwrapper div:first-child img {
+    margin-top: 92px;
+}
+main .chemiwrapper div:nth-child(2) img {
+    margin-top: 92px;
+    height: 28vw;
+}
+main .chemiwrapper div:nth-child(8) img {
+    height: 28vw;
+}
+main .chemiwrapper div:nth-child(1) {
+    order: 2;
+}
+main .chemiwrapper div:nth-child(2) {
+    order: 1;
+}
+main .chemiwrapper div:nth-child(3) {
+    order: 3;
+    margin-top: -275px;
+}
+main .chemiwrapper div:nth-child(4) {
+    order: 4;
+}
+main .chemiwrapper div:nth-child(5) {
+    order: 5;
+    margin-top: -275px;
+}
+main .chemiwrapper div:nth-child(6) {
+    order: 6;
+}
+main .chemiwrapper div:nth-child(7) {
+    order: 8;
+}
+main .chemiwrapper div:nth-child(8) {
+    order: 7;
+    margin-top: -275px;
+}
+main .chemiwrapper div:nth-child(9) {
+    order: 9;
+    margin-top: -550px;
+}
+main .story {
+    margin: 192px 4vw 0 4vw;
+}
+main .storywrapper {
+    width: 89vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .storywrapper img {
+    width: 43vw; height: 30vw;
+    margin-top: 75px;
+}
+main .newsletter #newstitle {
+    display: flex;
+    align-items: center;
+    margin: 214px 0 0 24px;
+}
+main .newsletter #newstitle img {
+    width: 128px; height: 38px;
+    padding-top: 30px;
+    margin-right: 17px;
+}
+main .newsletter {
+    margin: 218px 4vw 0 4vw;
+}
+main .newsletter p {
+    margin: 37px 0 0 3vw;
+}
+main .newsletter #name {
+    width: 89vw;
+}
+main .newsletter #email {
+    width: 89vw;
+}
+main .newsletter #subscribe a {
+    width: 89vw;
+}
+
+footer {
+    height: 263px;
+}
+footer .footwrapper {
+    padding-left: 38px;
+}
+footer .copyright {
+    display: flex;
+    align-items: center;
+}
+footer #statement {
+    margin: 54px 0 0 48px;
+}

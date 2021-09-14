@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+/* 모바일 */
+html { font-family: 'Noto Sans KR', 'Open Sans Condensed', 'Nanum Gothic','맑은 고딕',돋움, sans-serif;  font-size:16px; }
+body { margin: 0; padding: 0; }
+ul { margin: 0; padding: 0; list-style: none;}
+a { display: block; text-decoration: none; color: #000;}
+h1,p { margin: 0;}
+
+body {
+    margin-top: 111px; /* header height 크기만큼 */
+}
+
+.topbutton {
+    width: 41px; height: 41px;
+    position: fixed;
+    right: 20px; bottom: 20px;
+    z-index: 1;
+}
+.topbutton img {
+    width: 41px; height: 41px;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; height: 111px;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1;
+}
+header > a {
+    width: 188px; height: 56px;
+    margin-left: 19px;
+}
+header #logo {
+    width: 188px;
+}
+header ul li:first-child { display: none; }
+header ul li:nth-child(2) { display: none; }
+header ul li:nth-child(3) { display: none; }
+header li #menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    width: 50px; height: 50px;
+}
+header li #menu img {
+    width: 20px;
+}
+
+article > .bannerpic {
+    margin: 0;
+    width: 100%;
+    height: 419px;
+    background: url(../images/원본/hands.jpg) no-repeat 60% 50%/ 170%;
+    font-size: 0;
+}
+article > .bannertext {
+    height: 307px;
+    margin: 0;
+    background-color: #30436A;
+}
+article > div > h1 {
+    width: 80%;
+    padding: 91px 0 11px 25px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #fff;
+    word-break: keep-all;
+}
+article > div > p {
+    width: 87%;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    word-break: keep-all;
+}
+article .bannertext p span { display: none; }
+article ul {
+    display: flex;
+    margin: 41px 0 0 29px;
+}
+article ul li {
+    margin-right: 8px;
+}
+article ul li a {
+    width: 50px; height: 3px;
+    background-color: #fff;
+}
+article ul li:first-child {
+    opacity: 0.2;
+}
+article ul li:last-child {
+    opacity: 0.2;
+}
+
+
+main h3, h4, h5 { margin: 0; }
+main .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+main .title h2 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Open Sans Condensed';
+    color: #222222;
+}
+main .title a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666666;
+    margin-right: 5px;
+}
+main .chemistry {
+    margin: 76px 5vw 0 5vw;
+}
+main .chemiwrapper div a:first-child {
+    width: 90vw;
+}
+main .chemistry img {
+    width: 90vw;
+    margin-top: 46px;
+    opacity: 1;
+}
+main .chemistry img:hover {
+    opacity: 0.8;
+}
+main .chemiwrapper div:first-child img {
+    margin-top: 51px;
+}
+main h3 {
+    font-family: 'Open Sans Condensed';
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 24px;
+    color: #000;
+}
+main h4 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: #000;
+}
+main h5 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #999;
+    line-height: 20px;
+}
+main .story {
+    margin: 181px 5vw 0 5vw;
+}
+main .story img {
+    width: 90vw;
+    margin-top: 46px;
+    opacity: 1;
+}
+main .story img:hover {
+    opacity: 0.7;
+}
+main .story div:nth-child(2) img {
+    margin-top: 70px;
+}
+main .newsletter {
+    margin: 218px 5vw 0 5vw;
+}
+main .newsletter #newstitle img {
+    width: 33vw;
+}
+main .newsletter #newstitle h1 {
+    font-size: 20px;
+    line-height: 170%;
+    margin-top: 33px;
+    color: #222222;
+}
+main .newsletter p {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 180%;
+    font-weight: 500;
+    color: #333;
+}
+main .newsletter #name {
+    display: flex;
+    align-items: center;
+    width: 90vw; height: 39px;
+    border-bottom: 1px solid #000;
+    font-size: 13px;
+    text-indent: 10px;
+    color: #7C7C7C;
+    margin-top: 52px;
+}
+main .newsletter #email {
+    display: flex;
+    align-items: center;
+    width: 90vw; height: 39px;
+    border-bottom: 1px solid #000;
+    font-size: 13px;
+    text-indent: 10px;
+    color: #7C7C7C;
+    margin-top: 23px;
+}
+main .newsletter #name input {
+    border: none;
+    width: 100%; height: 35px;
+}
+main .newsletter #email input {
+    border: none;
+    width: 100%; height: 35px;
+}
+main .newsletter #personal {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+main .newsletter #personal a {
+    margin-left: 11px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #7C7C7C;
+}
+main .newsletter #personal span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #7C7C7C;
+}
+main .newsletter #subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+main .newsletter #subscribe a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 90vw; height: 42px;
+}
+
+footer {
+    margin-top: 87px;
+    width: 100%; height: 288px;
+    background-color: #f4f4f4;
+}
+footer .footwrapper {
+    background-color: #f4f4f4;
+    padding-left: 19px;
+}
+footer .icon {
+    padding-top: 54px;
+}
+footer .icon h1 {
+    font-family: 'Open Sans Condensed';
+    color: #222222;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+footer .icon img {
+    height: 22px;
+}
+footer .icon ul {
+    display: flex;
+}
+footer .icon li {
+    margin-right: 20px;
+}
+footer h4 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 54px;
+}
+footer #statement {
+    display: flex;
+    margin-top: 8px;
+}
+footer #statement li {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7c7c7c;
+    margin-right: 7px;
+}
+footer #statement li a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7c7c7c;
+}
